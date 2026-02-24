@@ -20,7 +20,7 @@ class Solution {
                 else{
                     int left=dp[i][j-1];
                     int top=dp[i-1][j];
-                    dp[i][j]=Math.Min(left,top)+1;
+                    dp[i][j]=Math.min(left,top)+1;
                 }
             }
         }
